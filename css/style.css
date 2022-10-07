@@ -1,0 +1,84 @@
+body {
+    background-color: rgb(88, 2, 88);
+    margin: 0 auto;
+    max-width: 1600px;
+}
+
+header {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul li {
+    font-size: 25px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.link-nav {
+    text-decoration: none;
+    color: #F2E30C;
+}
+
+.link-nav:hover {
+    transition: 0.3s;
+    color: #05F228;
+}
+
+#border-btn {
+    color: #F2E30C;
+    text-decoration: none;
+    border: 2px solid #05F228;
+    border-radius: 55px;
+    padding: 15px;
+}
+
+#border-btn:hover {
+    transition: 0.3s;
+    background-color: #F2E30C;
+    color: rgb(88, 2, 88);
+}
+
+#cyber-logo {
+    width: 500px;
+}
+
+#header-to-main {
+    margin-top: 50px;
+    width: 1200px;
+    border: 2px solid white;
+    border-radius: 55px;
+}
+
+.father-container-1 {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.container-items {
+    border: 5px solid black;
+    border-radius: 44px 0px 44px 0px;
+    padding: 5px;
+    margin: 13px;
+}
+
+.cards-imgs {
+    border-radius: 44px 0px 44px 0px;
+}
+
+
+.p-card {
+    color: white;
+    width: 300px;
+}
